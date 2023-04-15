@@ -1,0 +1,2 @@
+# zemi_lottery_js
+クライアントサイドのJavaScriptで動作するゼミの回答者抽選機
