@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <title>ゼミの発表者抽選</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>質問候補者をチェックで選択</h3>
+            <div id="candidate-checkbox"></div>
+            <button id="checkButton" class="btn btn-primary">全選択</button>
+            <button id="clearButton" class="btn btn-primary">全解除</button>
+        </div>
+        <div class="col-md-6">
+            <h3>質問者の数</h3>
+            <input type="number" id="num_questioner" class="form-control" value="2" min="1">
+            <h3>抽選</h3>
+            <button id="drawButton" class="btn btn-primary">抽選</button>
+            <table id="questioner_table" class="table"></table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
