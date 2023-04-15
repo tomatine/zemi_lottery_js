@@ -1,11 +1,56 @@
-* {
-    font-family: "Klee One", cursive;
+body {
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    margin: 10px;
+    font-weight: bold;
 }
 
 .checkbox-inline {
     display: inline-block;
     padding-left: 20px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     font-weight: 400;
     cursor: pointer;
+    font-size: 19px;
+}
+
+button {
+    margin: 10px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+table {
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
 }

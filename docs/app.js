@@ -36,8 +36,13 @@ const questionerTable = document.getElementById("questioner_table");
 
 function createCandidateCheckbox() {
     members.forEach((member) => {
+        const col = document.createElement("div");
+        col.classList.add("col-6");
+
         const label = createLabelWithCheckbox(member);
-        candidateCheckbox.appendChild(label);
+        col.appendChild(label);
+
+        candidateCheckbox.appendChild(col);
     });
 }
 
